@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-fluid{
+    @apply px-[1rem] md:px-[1.5rem] lg:px-[2.5rem] xl:px-[3.5rem]
+}
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    @apply font-poppins text-white
+}
+.nav-link{
+    @apply me-6 uppercase
+}
+.card{
+    @apply p-[24px] font-poppins
+}
+.title-black{
+    @apply text-black
+}
+.font-semiboldweight{
+    @apply font-[500]
+}
+.title{
+    @apply text-[14px] md:text-[18px]
+}
+.content p{
+    @apply text-[12px] md:text-[14px]
+}
+.content-gray{
+    @apply text-[#666666]
+}
+.btn{
+    @apply px-[12px] py-[8px] rounded-full transition-all duration-200 ease-in-out
+}
+.btn-gray{
+    @apply bg-[#3C3C43] text-white border border-[#3C3C43]
+}
+.btn-gray:hover{
+    @apply text-[#3C3C43] bg-white transition-all duration-200 ease-in-out
+}
